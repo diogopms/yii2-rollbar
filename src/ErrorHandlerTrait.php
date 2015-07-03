@@ -34,4 +34,16 @@ trait ErrorHandlerTrait
 
         parent::handleFatalError();
     }
+    
+    /**
+     * [handleInfo description]
+     * @param  string $title   [description]
+     * @param  string $message [description]
+     * @param  [type] $data    [description]
+     * @return [type]          [description]
+     */
+    public function handleInfo($title = '', $message = '', $data) {
+        \Rollbar::report_message($title, $message, $data,$data);
+    }
+
 }

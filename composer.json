@@ -1,9 +1,9 @@
 {
-    "name": "ladamalina/yii2-rollbar",
+    "name": "diogopms/yii2-rollbar",
     "description": "Rollbar Yii2 Error Handler",
     "keywords": ["rollbar", "ratchetio", "ratchet.io", "yii2", "error", "exception", "monitoring"],
     "license": "MIT",
-    "homepage": "http://github.com/ladamalina/yii2-rollbar",
+    "homepage": "http://github.com/diogopms/yii2-rollbar",
     "authors": [
         {
             "name": "Nadezhda Ryabtsova",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ladamalina\\yii2_rollbar\\": "src/"
+            "diogopms\\yii2_rollbar\\": "src/"
         }
     }
 }
