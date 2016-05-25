@@ -5,13 +5,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-php composer.phar require --prefer-dist ladamalina/yii2-rollbar "*"
+php composer.phar require --prefer-dist diogopms/yii2-rollbar "*"
 ```
 
 or add
 
 ```json
-"ladamalina/yii2-rollbar": "*"
+"diogopms/yii2-rollbar": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,7 +28,7 @@ Your most global main.php file:
 'bootstrap' => ['rollbar'],
 'components' => [
     'rollbar' => [
-        'class' => 'ladamalina\yii2_rollbar\RollbarComponent',
+        'class' => 'diogopms\yii2_rollbar\RollbarComponent',
         'accessToken' => 'POST_SERVER_ITEM_ACCESS_TOKEN',
     ],
 ],
@@ -50,7 +50,7 @@ web error handler (frontend/config/main-local.php for advanced app template):
 'components' => [
   'errorHandler' => [
       // handling uncaught PHP exceptions, execution and fatal errors
-      'class' => 'ladamalina\yii2_rollbar\WebErrorHandler',
+      'class' => 'diogopms\yii2_rollbar\WebErrorHandler',
   ],
 ],
 ```
@@ -61,7 +61,7 @@ console error handler (console/config/main-local.php for advanced app template):
 'components' => [
   'errorHandler' => [
       // handling uncaught PHP exceptions, execution and fatal errors
-      'class' => 'ladamalina\yii2_rollbar\ConsoleErrorHandler',
+      'class' => 'diogopms\yii2_rollbar\ConsoleErrorHandler',
   ],
 ],
 ```
