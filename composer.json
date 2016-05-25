@@ -6,8 +6,8 @@
     "homepage": "http://github.com/diogopms/yii2-rollbar",
     "authors": [
         {
-            "name": "Nadezhda Ryabtsova",
-            "email": "nadezhdaryabtsova@gmail.com"
+            "name": "Diogo Serrano",
+            "email": "info@diogoserrano.com"
         }
     ],
     "require": {
